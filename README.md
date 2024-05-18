@@ -19,20 +19,19 @@ This repository serves as a comprehensive resource for common AWS CLI commands, 
 The repository will be organized as follows:
 
 ```
-aws-cli-commands/
+aws-cli-common-commands/
 ├── README.md
 ├── ec2/
-│   ├── ec2.md
+│   ├── README.md
 │   └── ...
 ├── s3/
-│   ├── s3.md
+│   ├── README.md
 │   └── ...
 ├── lambda/
-│   ├── lambda.md
+│   ├── README.md
 │   └── ...
 ├── rds/
-│   ├── rds.md
-│   ├── delete_instance.md
+│   ├── README.md
 │   └── ...
 └── scripts/
     ├── backup_s3_to_local.sh
@@ -44,13 +43,13 @@ aws-cli-commands/
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/yourusername/aws-cli-commands.git
+    git clone https://github.com/tiagopala/aws-cli-common-commands.git
     ```
 
 2. Navigate to the desired service directory
 
     ```bash
-    cd aws-cli-commands/ec2
+    cd aws-cli-common-commands/ec2
     ```
 
 3. Explore commands and scripts:
