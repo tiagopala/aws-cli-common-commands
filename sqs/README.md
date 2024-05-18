@@ -1,5 +1,11 @@
 # AWS CLI SQS Commands
 
+This file contains some common AWS CLI commands for the [SQS](https://aws.amazon.com/sqs/) service.
+
+For the full sns commands check the [aws cli sqs documentation](https://docs.aws.amazon.com/cli/latest/reference/sqs/).
+
+> Note: All the examples below are referencing the localstack. To reference the services on your aws account remove `--endpoint-url` parameter.
+
 ## Manipulating Queues
 
 ### Create Queue
